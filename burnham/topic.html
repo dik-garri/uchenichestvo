@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ученичество</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0F1B2D;
+      --text: #F0EBE0;
+      --text-muted: #7A8BA8;
+      --text-secondary: #D0C9BC;
+      --gold: #D4A843;
+      --border: #2A3A52;
+      --quote-bg: rgba(212, 168, 67, 0.05);
+      --quote-text: #E8DFD0;
+      --th-bg: rgba(212, 168, 67, 0.15);
+      --code-bg: rgba(255, 255, 255, 0.08);
+      --error: #C75B5B;
+    }
+
+    :root.light {
+      --bg: #F5F3EF;
+      --text: #1A1A1A;
+      --text-muted: #6B7280;
+      --text-secondary: #4A4A4A;
+      --gold: #9A7B2D;
+      --border: #D4CFC5;
+      --quote-bg: rgba(154, 123, 45, 0.06);
+      --quote-text: #3A3A3A;
+      --th-bg: rgba(154, 123, 45, 0.12);
+      --code-bg: rgba(0, 0, 0, 0.06);
+      --error: #B91C1C;
+    }
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .container { max-width: 800px; margin: 0 auto; }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--gold); }
+
+    .theme-toggle {
+      background: var(--border);
+      border: none;
+      color: var(--text-muted);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s, color 0.3s;
+    }
+    .theme-toggle:hover { color: var(--gold); }
+
+    #content h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    #content h2 {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-top: 40px;
+      margin-bottom: 15px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    #content h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+
+    #content p {
+      margin-bottom: 12px;
+      color: var(--text-secondary);
+    }
+
+    #content blockquote {
+      font-family: "Lora", serif;
+      font-style: italic;
+      border-left: 3px solid var(--gold);
+      padding: 12px 20px;
+      margin: 15px 0;
+      background: var(--quote-bg);
+      color: var(--quote-text);
+    }
+
+    #content ul, #content ol {
+      margin: 10px 0 15px 25px;
+      color: var(--text-secondary);
+    }
+
+    #content li { margin-bottom: 6px; }
+
+    #content strong { color: var(--text); }
+
+    #content hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 30px 0;
+    }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+
+    #content th {
+      background: var(--th-bg);
+      color: var(--gold);
+      padding: 10px 15px;
+      text-align: left;
+      font-weight: 700;
+      border: 1px solid var(--border);
+    }
+
+    #content td {
+      padding: 8px 15px;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+    }
+
+    #content code {
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+
+    .loading {
+      text-align: center;
+      color: var(--text-muted);
+      padding: 60px 0;
+      font-size: 18px;
+    }
+
+    .error {
+      text-align: center;
+      color: var(--error);
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <a class="back-link" href="./"><i class="fas fa-arrow-left"></i> Все темы</a>
+      <button class="theme-toggle" id="themeToggle" title="Сменить тему">
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+    <div id="content">
+      <div class="loading">Загрузка...</div>
+    </div>
+  </div>
+  <script>
+    // Theme toggle
+    const toggle = document.getElementById('themeToggle');
+    const icon = toggle.querySelector('i');
+    const saved = localStorage.getItem('theme');
+
+    if (saved !== 'dark') {
+      document.documentElement.classList.add('light');
+      icon.classList.replace('fa-sun', 'fa-moon');
+    }
+
+    toggle.addEventListener('click', () => {
+      const isLight = document.documentElement.classList.toggle('light');
+      icon.classList.replace(isLight ? 'fa-sun' : 'fa-moon', isLight ? 'fa-moon' : 'fa-sun');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+
+    // Load markdown
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get('file');
+    const contentEl = document.getElementById('content');
+
+    if (!file) {
+      contentEl.innerHTML = '<div class="error">Тема не указана</div>';
+    } else {
+      fetch(file)
+        .then(r => {
+          if (!r.ok) throw new Error('Not found');
+          return r.text();
+        })
+        .then(md => {
+          contentEl.innerHTML = marked.parse(md);
+          const h1 = contentEl.querySelector('h1');
+          if (h1) document.title = h1.textContent + ' – Ученичество';
+        })
+        .catch(() => {
+          contentEl.innerHTML = '<div class="error">Не удалось загрузить тему</div>';
+        });
+    }
+  </script>
+</body>
+</html>

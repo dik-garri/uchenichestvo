@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Семь шагов христианской жизни &ndash; Ученичество</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0F1B2D;
+      --text: #F0EBE0;
+      --text-muted: #7A8BA8;
+      --gold: #D4A843;
+      --border: #2A3A52;
+      --hover-bg: rgba(212, 168, 67, 0.08);
+      --text-secondary: #D0C9BC;
+    }
+
+    :root.light {
+      --bg: #F5F3EF;
+      --text: #1A1A1A;
+      --text-muted: #6B7280;
+      --gold: #9A7B2D;
+      --border: #D4CFC5;
+      --hover-bg: rgba(154, 123, 45, 0.08);
+      --text-secondary: #4A4A4A;
+    }
+
+    body {
+      font-family: "Montserrat", Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 40px 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--gold); }
+
+    .theme-toggle {
+      background: var(--border);
+      border: none;
+      color: var(--text-muted);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s, color 0.3s;
+      z-index: 10;
+    }
+    .theme-toggle:hover { color: var(--gold); }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: var(--text-muted);
+      font-weight: 300;
+      font-family: "Lora", serif;
+      font-style: italic;
+    }
+
+    .topics {
+      list-style: none;
+    }
+
+    .topics li {
+      margin-bottom: 2px;
+    }
+
+    .topics a {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      text-decoration: none;
+      color: var(--text);
+      padding: 14px 18px;
+      border-radius: 8px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .topics a:hover {
+      background: var(--hover-bg);
+    }
+
+    .topic-num {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--gold);
+      min-width: 26px;
+      text-align: right;
+    }
+
+    .topic-title {
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    .topic-ref {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 300;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 32px; }
+      .topics a { padding: 12px 12px; gap: 10px; }
+      .topic-title { font-size: 15px; }
+      .topic-ref { display: none; }
+      .theme-toggle { width: 36px; height: 36px; font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <a class="back-link" href="../"><i class="fas fa-arrow-left"></i> Все курсы</a>
+      <button class="theme-toggle" id="themeToggle" title="Сменить тему">
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+
+    <header>
+      <h1>Семь шагов христианской жизни</h1>
+      <p>Учебник для христианских руководителей</p>
+    </header>
+
+    <ul class="topics">
+      <li><a href="topic.html?file=01-покаяние.md">
+        <span class="topic-num">1</span>
+        <span class="topic-title">Покаяние</span>
+        <span class="topic-ref">2 Петра 3:9</span>
+      </a></li>
+      <li><a href="topic.html?file=02-личное-общение-с-богом.md">
+        <span class="topic-num">2</span>
+        <span class="topic-title">Личное общение с Богом</span>
+        <span class="topic-ref"></span>
+      </a></li>
+      <li><a href="topic.html?file=03-церковное-богослужение.md">
+        <span class="topic-num">3</span>
+        <span class="topic-title">Церковное богослужение</span>
+        <span class="topic-ref">Евреям 10:25</span>
+      </a></li>
+      <li><a href="topic.html?file=04-малые-группы.md">
+        <span class="topic-num">4</span>
+        <span class="topic-title">Малые группы</span>
+        <span class="topic-ref">Деяния 2:46</span>
+      </a></li>
+      <li><a href="topic.html?file=05-служение-духовными-дарами.md">
+        <span class="topic-num">5</span>
+        <span class="topic-title">Служение духовными дарами</span>
+        <span class="topic-ref">1 Петра 4:10</span>
+      </a></li>
+      <li><a href="topic.html?file=06-благовестие.md">
+        <span class="topic-num">6</span>
+        <span class="topic-title">Благовестие</span>
+        <span class="topic-ref">Матфея 28:19</span>
+      </a></li>
+      <li><a href="topic.html?file=07-ученичество.md">
+        <span class="topic-num">7</span>
+        <span class="topic-title">Ученичество</span>
+        <span class="topic-ref">Матфея 28:20</span>
+      </a></li>
+    </ul>
+  </div>
+
+  <script>
+    const toggle = document.getElementById('themeToggle');
+    const icon = toggle.querySelector('i');
+    const saved = localStorage.getItem('theme');
+
+    if (saved !== 'dark') {
+      document.documentElement.classList.add('light');
+      icon.classList.replace('fa-sun', 'fa-moon');
+    }
+
+    toggle.addEventListener('click', () => {
+      const isLight = document.documentElement.classList.toggle('light');
+      icon.classList.replace(isLight ? 'fa-sun' : 'fa-moon', isLight ? 'fa-moon' : 'fa-sun');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>
