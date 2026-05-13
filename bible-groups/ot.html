@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ветхий Завет &ndash; Изучение Библии</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <a class="back-link" href="./"><i class="fas fa-arrow-left"></i> К курсу</a>
+      <button class="theme-toggle" id="themeToggle" title="Сменить тему"><i class="fas fa-sun"></i></button>
+    </div>
+    <header>
+      <h1>Ветхий Завет</h1>
+      <p>52 темы для разборов в малых группах</p>
+    </header>
+    <input id="search" type="search" class="search-input" placeholder="Поиск по номеру, названию или ссылке…">
+    <div id="topicList"></div>
+  </div>
+  <script src="assets/theme-toggle.js"></script>
+  <script src="assets/list.js"></script>
+  <script>initList('ot');</script>
+</body>
+</html>
