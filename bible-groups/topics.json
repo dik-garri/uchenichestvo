@@ -1,0 +1,2858 @@
+[
+  {
+    "id": "ot-01",
+    "testament": "ot",
+    "number": 1,
+    "section": "I. В НАЧАЛЕ",
+    "title": "Пролог",
+    "reference": "Бытие 1:1 – 2:4",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    "slug": "01-prolog",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-02",
+    "testament": "ot",
+    "number": 2,
+    "section": "I. В НАЧАЛЕ",
+    "title": "Эдемский сад",
+    "reference": "Бытие 2:5-25",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            2,
+            5
+          ],
+          "to": [
+            2,
+            25
+          ]
+        }
+      ]
+    },
+    "slug": "02-edemskiy-sad",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-03",
+    "testament": "ot",
+    "number": 3,
+    "section": "I. В НАЧАЛЕ",
+    "title": "Грехопадение",
+    "reference": "Бытие 3",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            -1
+          ]
+        }
+      ]
+    },
+    "slug": "03-grekhopadenie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-04",
+    "testament": "ot",
+    "number": 4,
+    "section": "I. В НАЧАЛЕ",
+    "title": "Каин и Авель",
+    "reference": "Бытие 4:1 – 5:32",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            5,
+            32
+          ]
+        }
+      ]
+    },
+    "slug": "04-kain-i-avel",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-05",
+    "testament": "ot",
+    "number": 5,
+    "section": "I. В НАЧАЛЕ",
+    "title": "Ной и завет",
+    "reference": "Бытие 6–9",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            6,
+            1
+          ],
+          "to": [
+            9,
+            -1
+          ]
+        }
+      ]
+    },
+    "slug": "05-noy-i-zavet",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-06",
+    "testament": "ot",
+    "number": 6,
+    "section": "II. БОГ АВРААМА, ИСААКА И ИАКОВА",
+    "title": "Вавилонская башня",
+    "reference": "Бытие 11",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            11,
+            1
+          ],
+          "to": [
+            11,
+            -1
+          ]
+        }
+      ]
+    },
+    "slug": "06-vavilonskaya-bashnya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-07",
+    "testament": "ot",
+    "number": 7,
+    "section": "II. БОГ АВРААМА, ИСААКА И ИАКОВА",
+    "title": "Призвание Авраама",
+    "reference": "Бытие 11:27 – 12:20",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            11,
+            27
+          ],
+          "to": [
+            12,
+            20
+          ]
+        }
+      ]
+    },
+    "slug": "07-prizvanie-avraama",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-08",
+    "testament": "ot",
+    "number": 8,
+    "section": "II. БОГ АВРААМА, ИСААКА И ИАКОВА",
+    "title": "Заветы Бога с Авраамом",
+    "reference": "Бытие 15:1-21",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            15,
+            1
+          ],
+          "to": [
+            15,
+            21
+          ]
+        }
+      ]
+    },
+    "slug": "08-zavety-boga-s-avraamom",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-09",
+    "testament": "ot",
+    "number": 9,
+    "section": "II. БОГ АВРААМА, ИСААКА И ИАКОВА",
+    "title": "Рождение и жертва Исаака",
+    "reference": "Бытие 22:1-19",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            22,
+            1
+          ],
+          "to": [
+            22,
+            19
+          ]
+        }
+      ]
+    },
+    "slug": "09-rozhdenie-i-zhertva-isaaka",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-10",
+    "testament": "ot",
+    "number": 10,
+    "section": "II. БОГ АВРААМА, ИСААКА И ИАКОВА",
+    "title": "Благословение и первородство",
+    "reference": "Бытие 27:1-46",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            27,
+            1
+          ],
+          "to": [
+            27,
+            46
+          ]
+        }
+      ]
+    },
+    "slug": "10-blagoslovenie-i-pervorodstvo",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-11",
+    "testament": "ot",
+    "number": 11,
+    "section": "II. БОГ АВРААМА, ИСААКА И ИАКОВА",
+    "title": "Примирение Исава и Иакова",
+    "reference": "Бытие 32:1 – 33:20",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            32,
+            1
+          ],
+          "to": [
+            33,
+            20
+          ]
+        }
+      ]
+    },
+    "slug": "11-primirenie-isava-i-iakova",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-12",
+    "testament": "ot",
+    "number": 12,
+    "section": "III. ИСТОРИЯ ИОСИФА",
+    "title": "Последний памятный камень Иакова",
+    "reference": "Бытие 35:1-29",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            35,
+            1
+          ],
+          "to": [
+            35,
+            29
+          ]
+        }
+      ]
+    },
+    "slug": "12-posledniy-pamyatnyy-kamen-iakova",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-13",
+    "testament": "ot",
+    "number": 13,
+    "section": "III. ИСТОРИЯ ИОСИФА",
+    "title": "Продажа в рабство",
+    "reference": "Бытие 37:1-36",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            37,
+            1
+          ],
+          "to": [
+            37,
+            36
+          ]
+        }
+      ]
+    },
+    "slug": "13-prodazha-v-rabstvo",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-14",
+    "testament": "ot",
+    "number": 14,
+    "section": "III. ИСТОРИЯ ИОСИФА",
+    "title": "Темница и возвращение",
+    "reference": "Бытие 39:1 – 41:57",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            39,
+            1
+          ],
+          "to": [
+            41,
+            57
+          ]
+        }
+      ]
+    },
+    "slug": "14-temnitsa-i-vozvraschenie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-15",
+    "testament": "ot",
+    "number": 15,
+    "section": "III. ИСТОРИЯ ИОСИФА",
+    "title": "Встреча Иосифа с братьями",
+    "reference": "Бытие 42:1 – 44:34",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            42,
+            1
+          ],
+          "to": [
+            44,
+            34
+          ]
+        }
+      ]
+    },
+    "slug": "15-vstrecha-iosifa-s-bratyami",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-16",
+    "testament": "ot",
+    "number": 16,
+    "section": "IV. ИСХОД",
+    "title": "Встреча с отцом",
+    "reference": "Бытие 45:1 – 46:7",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gn",
+          "from": [
+            45,
+            1
+          ],
+          "to": [
+            46,
+            7
+          ]
+        }
+      ]
+    },
+    "slug": "16-vstrecha-s-ottsom",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-17",
+    "testament": "ot",
+    "number": 17,
+    "section": "IV. ИСХОД",
+    "title": "Рождение Моисея и жизнь в Египте",
+    "reference": "Исход 1:1 – 2:25",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ex",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            2,
+            25
+          ]
+        }
+      ]
+    },
+    "slug": "17-rozhdenie-moiseya-i-zhizn-v-egipte",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-18",
+    "testament": "ot",
+    "number": 18,
+    "section": "IV. ИСХОД",
+    "title": "Призвание Моисея",
+    "reference": "Исход 3:1 – 4:17",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ex",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            4,
+            17
+          ]
+        }
+      ]
+    },
+    "slug": "18-prizvanie-moiseya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-19",
+    "testament": "ot",
+    "number": 19,
+    "section": "IV. ИСХОД",
+    "title": "Десять казней",
+    "reference": "Исход 6:28 – 11:10",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ex",
+          "from": [
+            6,
+            28
+          ],
+          "to": [
+            11,
+            10
+          ]
+        }
+      ]
+    },
+    "slug": "19-desyat-kazney",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-20",
+    "testament": "ot",
+    "number": 20,
+    "section": "IV. ИСХОД",
+    "title": "Пасха",
+    "reference": "Исход 12:1-42",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ex",
+          "from": [
+            12,
+            1
+          ],
+          "to": [
+            12,
+            42
+          ]
+        }
+      ]
+    },
+    "slug": "20-paskha",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-21",
+    "testament": "ot",
+    "number": 21,
+    "section": "IV. ИСХОД",
+    "title": "Переход через Красное море",
+    "reference": "Исход 13:17 – 14:31",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ex",
+          "from": [
+            13,
+            17
+          ],
+          "to": [
+            14,
+            31
+          ]
+        }
+      ]
+    },
+    "slug": "21-perekhod-cherez-krasnoe-more",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-22",
+    "testament": "ot",
+    "number": 22,
+    "section": "IV. ИСХОД",
+    "title": "Десять заповедей",
+    "reference": "Исход 19:1 – 20:21",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ex",
+          "from": [
+            19,
+            1
+          ],
+          "to": [
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    "slug": "22-desyat-zapovedey",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-23",
+    "testament": "ot",
+    "number": 23,
+    "section": "IV. ИСХОД",
+    "title": "Золотой телец",
+    "reference": "Исход 32:1 – 34:35",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ex",
+          "from": [
+            32,
+            1
+          ],
+          "to": [
+            34,
+            35
+          ]
+        }
+      ]
+    },
+    "slug": "23-zolotoy-telets",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-24",
+    "testament": "ot",
+    "number": 24,
+    "section": "IV. ИСХОД",
+    "title": "Иисус Навин – преемник Моисея",
+    "reference": "Иисус Навин 1:1-18",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "js",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            1,
+            18
+          ]
+        }
+      ]
+    },
+    "slug": "24-iisus-navin-preemnik-moiseya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-25",
+    "testament": "ot",
+    "number": 25,
+    "section": "IV. ИСХОД",
+    "title": "Переход через Иордан",
+    "reference": "Иисус Навин 3:1 – 4:24",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "js",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            4,
+            24
+          ]
+        }
+      ]
+    },
+    "slug": "25-perekhod-cherez-iordan",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-26",
+    "testament": "ot",
+    "number": 26,
+    "section": "V. КНИГА СУДЕЙ",
+    "title": "Падение Иерихона",
+    "reference": "Иисус Навин 5:13 – 6:26",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "js",
+          "from": [
+            5,
+            13
+          ],
+          "to": [
+            6,
+            26
+          ]
+        }
+      ]
+    },
+    "slug": "26-padenie-ierikhona",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-27",
+    "testament": "ot",
+    "number": 27,
+    "section": "V. КНИГА СУДЕЙ",
+    "title": "Непослушание израильтян",
+    "reference": "Судьи 2:1 – 3:6",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jud",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    "slug": "27-neposlushanie-izrailtyan",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-28",
+    "testament": "ot",
+    "number": 28,
+    "section": "V. КНИГА СУДЕЙ",
+    "title": "Девора – вождь Израиля",
+    "reference": "Судьи 4:1 – 5:31",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jud",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            5,
+            31
+          ]
+        }
+      ]
+    },
+    "slug": "28-devora-vozhd-izrailya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-29",
+    "testament": "ot",
+    "number": 29,
+    "section": "V. КНИГА СУДЕЙ",
+    "title": "Гедеон побеждает мадианитян",
+    "reference": "Судьи 6:1 – 7:25",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jud",
+          "from": [
+            6,
+            1
+          ],
+          "to": [
+            7,
+            25
+          ]
+        }
+      ]
+    },
+    "slug": "29-gedeon-pobezhdaet-madianityan",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-30",
+    "testament": "ot",
+    "number": 30,
+    "section": "V. КНИГА СУДЕЙ",
+    "title": "Самсон побеждает филистимлян",
+    "reference": "Судьи 13:1 – 16:31",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jud",
+          "from": [
+            13,
+            1
+          ],
+          "to": [
+            16,
+            31
+          ]
+        }
+      ]
+    },
+    "slug": "30-samson-pobezhdaet-filistimlyan",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-31",
+    "testament": "ot",
+    "number": 31,
+    "section": "V. КНИГА СУДЕЙ",
+    "title": "История Руфи",
+    "reference": "Руфь 1:1 – 4:22",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "rt",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            4,
+            22
+          ]
+        }
+      ]
+    },
+    "slug": "31-istoriya-rufi",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-32",
+    "testament": "ot",
+    "number": 32,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Самуил слышит Бога",
+    "reference": "1 Царств 1:1 – 3:21",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1sm",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            3,
+            21
+          ]
+        }
+      ]
+    },
+    "slug": "32-samuil-slyshit-boga",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-33",
+    "testament": "ot",
+    "number": 33,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Царь Саул",
+    "reference": "1 Царств 8:1 – 10:27",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1sm",
+          "from": [
+            8,
+            1
+          ],
+          "to": [
+            10,
+            27
+          ]
+        }
+      ]
+    },
+    "slug": "33-tsar-saul",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-34",
+    "testament": "ot",
+    "number": 34,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Давид и Голиаф",
+    "reference": "1 Царств 16:1 – 18:16",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1sm",
+          "from": [
+            16,
+            1
+          ],
+          "to": [
+            18,
+            16
+          ]
+        }
+      ]
+    },
+    "slug": "34-david-i-goliaf",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-35",
+    "testament": "ot",
+    "number": 35,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Давид и Саул",
+    "reference": "1 Царств 23:7 – 24:23",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1sm",
+          "from": [
+            23,
+            7
+          ],
+          "to": [
+            24,
+            23
+          ]
+        }
+      ]
+    },
+    "slug": "35-david-i-saul",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-36",
+    "testament": "ot",
+    "number": 36,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Царь Давид",
+    "reference": "2 Царств 5:1 – 7:29",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "2sm",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            7,
+            29
+          ]
+        }
+      ]
+    },
+    "slug": "36-tsar-david",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-37",
+    "testament": "ot",
+    "number": 37,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Давид и Вирсавия",
+    "reference": "2 Царств 11:1 – 12:25",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "2sm",
+          "from": [
+            11,
+            1
+          ],
+          "to": [
+            12,
+            25
+          ]
+        }
+      ]
+    },
+    "slug": "37-david-i-virsaviya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-38",
+    "testament": "ot",
+    "number": 38,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Царь Соломон",
+    "reference": "3 Царств 2:1 – 3:28",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1kgs",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            3,
+            28
+          ]
+        }
+      ]
+    },
+    "slug": "38-tsar-solomon",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-39",
+    "testament": "ot",
+    "number": 39,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Храм Соломона",
+    "reference": "3 Царств 8:1 – 9:9",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1kgs",
+          "from": [
+            8,
+            1
+          ],
+          "to": [
+            9,
+            9
+          ]
+        }
+      ]
+    },
+    "slug": "39-khram-solomona",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-40",
+    "testament": "ot",
+    "number": 40,
+    "section": "VI. ЦАРИ И ПРОРОКИ",
+    "title": "Илия и Вааловы пророки",
+    "reference": "3 Царств 16:29 – 19:18",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1kgs",
+          "from": [
+            16,
+            29
+          ],
+          "to": [
+            19,
+            18
+          ]
+        }
+      ]
+    },
+    "slug": "40-iliya-i-vaalovy-proroki",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-41",
+    "testament": "ot",
+    "number": 41,
+    "section": "VII. ПРОРОЧЕСКИЕ КНИГИ",
+    "title": "Падение Иерусалима",
+    "reference": "4 Царств 24:17 – 25:30",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "2kgs",
+          "from": [
+            24,
+            17
+          ],
+          "to": [
+            25,
+            30
+          ]
+        }
+      ]
+    },
+    "slug": "41-padenie-ierusalima",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-42",
+    "testament": "ot",
+    "number": 42,
+    "section": "VII. ПРОРОЧЕСКИЕ КНИГИ",
+    "title": "Страдающий раб",
+    "reference": "Исаия 52:13 – 53:12",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "is",
+          "from": [
+            52,
+            13
+          ],
+          "to": [
+            53,
+            12
+          ]
+        }
+      ]
+    },
+    "slug": "42-stradayuschiy-rab",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-43",
+    "testament": "ot",
+    "number": 43,
+    "section": "VII. ПРОРОЧЕСКИЕ КНИГИ",
+    "title": "Призвание Иеремии",
+    "reference": "Иеремия 1:1 – 3:5",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jr",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    "slug": "43-prizvanie-ieremii",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-44",
+    "testament": "ot",
+    "number": 44,
+    "section": "VII. ПРОРОЧЕСКИЕ КНИГИ",
+    "title": "Даниил во рву со львами",
+    "reference": "Даниил 6:1-28",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "dn",
+          "from": [
+            6,
+            1
+          ],
+          "to": [
+            6,
+            28
+          ]
+        }
+      ]
+    },
+    "slug": "44-daniil-vo-rvu-so-lvami",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-45",
+    "testament": "ot",
+    "number": 45,
+    "section": "VII. ПРОРОЧЕСКИЕ КНИГИ",
+    "title": "История Ионы",
+    "reference": "Иона 1:1 – 4:11",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jn",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            4,
+            11
+          ]
+        }
+      ]
+    },
+    "slug": "45-istoriya-iony",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-46",
+    "testament": "ot",
+    "number": 46,
+    "section": "VIII. ПОЭЗИЯ",
+    "title": "Судный День",
+    "reference": "Малахия 1:1 – 4:6",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ml",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    "slug": "46-sudnyy-den",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-47",
+    "testament": "ot",
+    "number": 47,
+    "section": "VIII. ПОЭЗИЯ",
+    "title": "Господь – мой Пастырь",
+    "reference": "Псалом 22",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ps",
+          "from": [
+            22,
+            1
+          ],
+          "to": [
+            22,
+            -1
+          ]
+        }
+      ]
+    },
+    "slug": "47-gospod-moy-pastyr",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-48",
+    "testament": "ot",
+    "number": 48,
+    "section": "VIII. ПОЭЗИЯ",
+    "title": "Помилуй меня, Боже",
+    "reference": "Псалом 50",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ps",
+          "from": [
+            50,
+            1
+          ],
+          "to": [
+            50,
+            -1
+          ]
+        }
+      ]
+    },
+    "slug": "48-pomiluy-menya-bozhe",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-49",
+    "testament": "ot",
+    "number": 49,
+    "section": "VIII. ПОЭЗИЯ",
+    "title": "Хвала Творцу",
+    "reference": "Псалом 103",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ps",
+          "from": [
+            103,
+            1
+          ],
+          "to": [
+            103,
+            -1
+          ]
+        }
+      ]
+    },
+    "slug": "49-khvala-tvortsu",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-50",
+    "testament": "ot",
+    "number": 50,
+    "section": "VIII. ПОЭЗИЯ",
+    "title": "Величие Бога",
+    "reference": "Псалом 138",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ps",
+          "from": [
+            138,
+            1
+          ],
+          "to": [
+            138,
+            -1
+          ]
+        }
+      ]
+    },
+    "slug": "50-velichie-boga",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-51",
+    "testament": "ot",
+    "number": 51,
+    "section": "VIII. ПОЭЗИЯ",
+    "title": "Благочестивая мудрость",
+    "reference": "Притчи 1:1 – 4:27",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "prv",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            4,
+            27
+          ]
+        }
+      ]
+    },
+    "slug": "51-blagochestivaya-mudrost",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "ot-52",
+    "testament": "ot",
+    "number": 52,
+    "section": "VIII. ПОЭЗИЯ",
+    "title": "Притчи Соломоновы",
+    "reference": "Притчи 17:1 – 18:24",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "prv",
+          "from": [
+            17,
+            1
+          ],
+          "to": [
+            18,
+            24
+          ]
+        }
+      ]
+    },
+    "slug": "52-pritchi-solomonovy",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-01",
+    "testament": "nt",
+    "number": 1,
+    "section": "IX. ЖИВОЕ СЛОВО",
+    "title": "Слово стало плотью",
+    "reference": "Иоанн 1:1-18",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jo",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            1,
+            18
+          ]
+        }
+      ]
+    },
+    "slug": "01-slovo-stalo-plotyu",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-02",
+    "testament": "nt",
+    "number": 2,
+    "section": "IX. ЖИВОЕ СЛОВО",
+    "title": "Благовещение",
+    "reference": "Лука 1:1-80",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "lk",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            1,
+            80
+          ]
+        }
+      ]
+    },
+    "slug": "02-blagoveschenie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-03",
+    "testament": "nt",
+    "number": 3,
+    "section": "IX. ЖИВОЕ СЛОВО",
+    "title": "Рождение Иисуса",
+    "reference": "Лука 2:1-40",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "lk",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            2,
+            40
+          ]
+        }
+      ]
+    },
+    "slug": "03-rozhdenie-iisusa",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-04",
+    "testament": "nt",
+    "number": 4,
+    "section": "IX. ЖИВОЕ СЛОВО",
+    "title": "Иоанн Креститель",
+    "reference": "Лука 3:1-20",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "lk",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            20
+          ]
+        }
+      ]
+    },
+    "slug": "04-ioann-krestitel",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-05",
+    "testament": "nt",
+    "number": 5,
+    "section": "X. УЧЕНИЕ ИИСУСА",
+    "title": "Крещение и искушение",
+    "reference": "Матфей 3:13 – 4:17",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "mt",
+          "from": [
+            3,
+            13
+          ],
+          "to": [
+            4,
+            17
+          ]
+        }
+      ]
+    },
+    "slug": "05-kreschenie-i-iskushenie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-06",
+    "testament": "nt",
+    "number": 6,
+    "section": "X. УЧЕНИЕ ИИСУСА",
+    "title": "Нагорная проповедь, часть 1",
+    "reference": "Матфей 5:1 – 6:4",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "mt",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    "slug": "06-nagornaya-propoved-chast-1",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-07",
+    "testament": "nt",
+    "number": 7,
+    "section": "X. УЧЕНИЕ ИИСУСА",
+    "title": "Нагорная проповедь, часть 2",
+    "reference": "Матфей 6:5 – 7:29",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "mt",
+          "from": [
+            6,
+            5
+          ],
+          "to": [
+            7,
+            29
+          ]
+        }
+      ]
+    },
+    "slug": "07-nagornaya-propoved-chast-2",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-08",
+    "testament": "nt",
+    "number": 8,
+    "section": "X. УЧЕНИЕ ИИСУСА",
+    "title": "Царство Небесное",
+    "reference": "Матфей 13:1-58",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "mt",
+          "from": [
+            13,
+            1
+          ],
+          "to": [
+            13,
+            58
+          ]
+        }
+      ]
+    },
+    "slug": "08-tsarstvo-nebesnoe",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-09",
+    "testament": "nt",
+    "number": 9,
+    "section": "X. УЧЕНИЕ ИИСУСА",
+    "title": "Добрый самарянин",
+    "reference": "Лука 10:25-37",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "lk",
+          "from": [
+            10,
+            25
+          ],
+          "to": [
+            10,
+            37
+          ]
+        }
+      ]
+    },
+    "slug": "09-dobryy-samaryanin",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-10",
+    "testament": "nt",
+    "number": 10,
+    "section": "XI. ЧУДЕСА ИИСУСА",
+    "title": "Блудный сын. Пропадал и нашелся",
+    "reference": "Лука 15:1-32",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "lk",
+          "from": [
+            15,
+            1
+          ],
+          "to": [
+            15,
+            32
+          ]
+        }
+      ]
+    },
+    "slug": "10-bludnyy-syn-propadal-i-nashelsya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-11",
+    "testament": "nt",
+    "number": 11,
+    "section": "XI. ЧУДЕСА ИИСУСА",
+    "title": "Насыщение 5000 человек",
+    "reference": "Лука 9:1-17",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "lk",
+          "from": [
+            9,
+            1
+          ],
+          "to": [
+            9,
+            17
+          ]
+        }
+      ]
+    },
+    "slug": "11-nasyschenie-5000-chelovek",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-12",
+    "testament": "nt",
+    "number": 12,
+    "section": "XI. ЧУДЕСА ИИСУСА",
+    "title": "Хождение по воде",
+    "reference": "Матфей 14:22-36",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "mt",
+          "from": [
+            14,
+            22
+          ],
+          "to": [
+            14,
+            36
+          ]
+        }
+      ]
+    },
+    "slug": "12-khozhdenie-po-vode",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-13",
+    "testament": "nt",
+    "number": 13,
+    "section": "XI. ЧУДЕСА ИИСУСА",
+    "title": "Исцеление слепорожденного",
+    "reference": "Иоанн 9:1-41",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jo",
+          "from": [
+            9,
+            1
+          ],
+          "to": [
+            9,
+            41
+          ]
+        }
+      ]
+    },
+    "slug": "13-istselenie-sleporozhdennogo",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-14",
+    "testament": "nt",
+    "number": 14,
+    "section": "XI. ЧУДЕСА ИИСУСА",
+    "title": "Исцеление бесноватого",
+    "reference": "Марк 5:1-20",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "mk",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    "slug": "14-istselenie-besnovatogo",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-15",
+    "testament": "nt",
+    "number": 15,
+    "section": "XII. КРЕСТ ХРИСТА",
+    "title": "Воскрешение Лазаря",
+    "reference": "Иоанн 11:1-57",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jo",
+          "from": [
+            11,
+            1
+          ],
+          "to": [
+            11,
+            57
+          ]
+        }
+      ]
+    },
+    "slug": "15-voskreshenie-lazarya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-16",
+    "testament": "nt",
+    "number": 16,
+    "section": "XII. КРЕСТ ХРИСТА",
+    "title": "Тайная Вечеря",
+    "reference": "Лука 22:1-39",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "lk",
+          "from": [
+            22,
+            1
+          ],
+          "to": [
+            22,
+            39
+          ]
+        }
+      ]
+    },
+    "slug": "16-taynaya-vecherya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-17",
+    "testament": "nt",
+    "number": 17,
+    "section": "XII. КРЕСТ ХРИСТА",
+    "title": "Арест и суд",
+    "reference": "Иоанн 18:1-40",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jo",
+          "from": [
+            18,
+            1
+          ],
+          "to": [
+            18,
+            40
+          ]
+        }
+      ]
+    },
+    "slug": "17-arest-i-sud",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-18",
+    "testament": "nt",
+    "number": 18,
+    "section": "XII. КРЕСТ ХРИСТА",
+    "title": "Распятие",
+    "reference": "Иоанн 19:1-42",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jo",
+          "from": [
+            19,
+            1
+          ],
+          "to": [
+            19,
+            42
+          ]
+        }
+      ]
+    },
+    "slug": "18-raspyatie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-19",
+    "testament": "nt",
+    "number": 19,
+    "section": "XII. КРЕСТ ХРИСТА",
+    "title": "Воскресение Христа",
+    "reference": "Иоанн 20:1 – 21:25",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jo",
+          "from": [
+            20,
+            1
+          ],
+          "to": [
+            21,
+            25
+          ]
+        }
+      ]
+    },
+    "slug": "19-voskresenie-khrista",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-20",
+    "testament": "nt",
+    "number": 20,
+    "section": "XIII. РОЖДЕНИЕ ЦЕРКВИ",
+    "title": "Вознесение Христа",
+    "reference": "Деяния 1:1-11",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            1,
+            11
+          ]
+        }
+      ]
+    },
+    "slug": "20-voznesenie-khrista",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-21",
+    "testament": "nt",
+    "number": 21,
+    "section": "XIII. РОЖДЕНИЕ ЦЕРКВИ",
+    "title": "День Пятидесятницы",
+    "reference": "Деяния 2:1-47",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            2,
+            47
+          ]
+        }
+      ]
+    },
+    "slug": "21-den-pyatidesyatnitsy",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-22",
+    "testament": "nt",
+    "number": 22,
+    "section": "XIII. РОЖДЕНИЕ ЦЕРКВИ",
+    "title": "Рост церкви и гонения",
+    "reference": "Деяния 3:1 – 4:37",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            4,
+            37
+          ]
+        }
+      ]
+    },
+    "slug": "22-rost-tserkvi-i-goneniya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-23",
+    "testament": "nt",
+    "number": 23,
+    "section": "XIII. РОЖДЕНИЕ ЦЕРКВИ",
+    "title": "Первый мученик за веру",
+    "reference": "Деяния 6:8 – 8:4",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            6,
+            8
+          ],
+          "to": [
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    "slug": "23-pervyy-muchenik-za-veru",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-24",
+    "testament": "nt",
+    "number": 24,
+    "section": "XIII. РОЖДЕНИЕ ЦЕРКВИ",
+    "title": "Проповедь Слова",
+    "reference": "Деяния 8:26-40",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            8,
+            26
+          ],
+          "to": [
+            8,
+            40
+          ]
+        }
+      ]
+    },
+    "slug": "24-propoved-slova",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-25",
+    "testament": "nt",
+    "number": 25,
+    "section": "XIV. МИССИОНЕРСКИЕ ПУТЕШЕСТВИЯ ПАВЛА",
+    "title": "Благая Весть для всех",
+    "reference": "Деяния 10:1 – 11:18",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            10,
+            1
+          ],
+          "to": [
+            11,
+            18
+          ]
+        }
+      ]
+    },
+    "slug": "25-blagaya-vest-dlya-vsekh",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-26",
+    "testament": "nt",
+    "number": 26,
+    "section": "XIV. МИССИОНЕРСКИЕ ПУТЕШЕСТВИЯ ПАВЛА",
+    "title": "Дорога в Дамаск",
+    "reference": "Деяния 9:1-31",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            9,
+            1
+          ],
+          "to": [
+            9,
+            31
+          ]
+        }
+      ]
+    },
+    "slug": "26-doroga-v-damask",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-27",
+    "testament": "nt",
+    "number": 27,
+    "section": "XIV. МИССИОНЕРСКИЕ ПУТЕШЕСТВИЯ ПАВЛА",
+    "title": "Миссионерское путешествие",
+    "reference": "Деяния 13:1 – 14:28",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            13,
+            1
+          ],
+          "to": [
+            14,
+            28
+          ]
+        }
+      ]
+    },
+    "slug": "27-missionerskoe-puteshestvie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-28",
+    "testament": "nt",
+    "number": 28,
+    "section": "XIV. МИССИОНЕРСКИЕ ПУТЕШЕСТВИЯ ПАВЛА",
+    "title": "Иерусалимский собор",
+    "reference": "Деяния 15:1-41",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            15,
+            1
+          ],
+          "to": [
+            15,
+            41
+          ]
+        }
+      ]
+    },
+    "slug": "28-ierusalimskiy-sobor",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-29",
+    "testament": "nt",
+    "number": 29,
+    "section": "XIV. МИССИОНЕРСКИЕ ПУТЕШЕСТВИЯ ПАВЛА",
+    "title": "Миссионерские путешествия",
+    "reference": "Деяния 16:1 – 20:38",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            16,
+            1
+          ],
+          "to": [
+            20,
+            38
+          ]
+        }
+      ]
+    },
+    "slug": "29-missionerskie-puteshestviya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-30",
+    "testament": "nt",
+    "number": 30,
+    "section": "XV. ПИСЬМА АПОСТОЛА ПАВЛА К ЦЕРКВЯМ",
+    "title": "Путешествие в Рим",
+    "reference": "Деяния 25:1 – 28:31",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "act",
+          "from": [
+            25,
+            1
+          ],
+          "to": [
+            28,
+            31
+          ]
+        }
+      ]
+    },
+    "slug": "30-puteshestvie-v-rim",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-31",
+    "testament": "nt",
+    "number": 31,
+    "section": "XV. ПИСЬМА АПОСТОЛА ПАВЛА К ЦЕРКВЯМ",
+    "title": "Преодолеваем силой",
+    "reference": "Римлянам 8:1-39",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "rm",
+          "from": [
+            8,
+            1
+          ],
+          "to": [
+            8,
+            39
+          ]
+        }
+      ]
+    },
+    "slug": "31-preodolevaem-siloy",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-32",
+    "testament": "nt",
+    "number": 32,
+    "section": "XV. ПИСЬМА АПОСТОЛА ПАВЛА К ЦЕРКВЯМ",
+    "title": "Плод Духа",
+    "reference": "Галатам 5:16 – 6:18",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "gl",
+          "from": [
+            5,
+            16
+          ],
+          "to": [
+            6,
+            18
+          ]
+        }
+      ]
+    },
+    "slug": "32-plod-dukha",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-33",
+    "testament": "nt",
+    "number": 33,
+    "section": "XV. ПИСЬМА АПОСТОЛА ПАВЛА К ЦЕРКВЯМ",
+    "title": "Всеоружие Божье",
+    "reference": "Ефесянам 6:10-20",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "eph",
+          "from": [
+            6,
+            10
+          ],
+          "to": [
+            6,
+            20
+          ]
+        }
+      ]
+    },
+    "slug": "33-vseoruzhie-bozhe",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-34",
+    "testament": "nt",
+    "number": 34,
+    "section": "XV. ПИСЬМА АПОСТОЛА ПАВЛА К ЦЕРКВЯМ",
+    "title": "Радуйтесь в Господе",
+    "reference": "Филиппийцам 4:2-9",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "ph",
+          "from": [
+            4,
+            2
+          ],
+          "to": [
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    "slug": "34-raduytes-v-gospode",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-35",
+    "testament": "nt",
+    "number": 35,
+    "section": "XVI. ПИСЬМА АПОСТОЛА ПАВЛА СЛУЖИТЕЛЯМ",
+    "title": "Превосходство Христа",
+    "reference": "Колоссянам 1:1-23",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "cl",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            1,
+            23
+          ]
+        }
+      ]
+    },
+    "slug": "35-prevoskhodstvo-khrista",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-36",
+    "testament": "nt",
+    "number": 36,
+    "section": "XVI. ПИСЬМА АПОСТОЛА ПАВЛА СЛУЖИТЕЛЯМ",
+    "title": "Пресвитеры и диаконы",
+    "reference": "1 Тимофею 3:1-16",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1tm",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            16
+          ]
+        }
+      ]
+    },
+    "slug": "36-presvitery-i-diakony",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-37",
+    "testament": "nt",
+    "number": 37,
+    "section": "XVI. ПИСЬМА АПОСТОЛА ПАВЛА СЛУЖИТЕЛЯМ",
+    "title": "Сребролюбие",
+    "reference": "1 Тимофею 6:6-21",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1tm",
+          "from": [
+            6,
+            6
+          ],
+          "to": [
+            6,
+            21
+          ]
+        }
+      ]
+    },
+    "slug": "37-srebrolyubie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-38",
+    "testament": "nt",
+    "number": 38,
+    "section": "XVI. ПИСЬМА АПОСТОЛА ПАВЛА СЛУЖИТЕЛЯМ",
+    "title": "Добрые воины Христа",
+    "reference": "2 Тимофею 2:1-26",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "2tm",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            2,
+            26
+          ]
+        }
+      ]
+    },
+    "slug": "38-dobrye-voiny-khrista",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-39",
+    "testament": "nt",
+    "number": 39,
+    "section": "XVI. ПИСЬМА АПОСТОЛА ПАВЛА СЛУЖИТЕЛЯМ",
+    "title": "Писание – богодухновенно",
+    "reference": "2 Тимофею 3:10 – 4:8",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "2tm",
+          "from": [
+            3,
+            10
+          ],
+          "to": [
+            4,
+            8
+          ]
+        }
+      ]
+    },
+    "slug": "39-pisanie-bogodukhnovenno",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-40",
+    "testament": "nt",
+    "number": 40,
+    "section": "XVII. УЧЕНИЕ АПОСТОЛОВ",
+    "title": "Пришествие Господне",
+    "reference": "1 Фессалоникийцам 4:13 – 5:11",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1ts",
+          "from": [
+            4,
+            13
+          ],
+          "to": [
+            5,
+            11
+          ]
+        }
+      ]
+    },
+    "slug": "40-prishestvie-gospodne",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-41",
+    "testament": "nt",
+    "number": 41,
+    "section": "XVII. УЧЕНИЕ АПОСТОЛОВ",
+    "title": "Путь более превосходный",
+    "reference": "1 Коринфянам 13:1-13",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1co",
+          "from": [
+            13,
+            1
+          ],
+          "to": [
+            13,
+            13
+          ]
+        }
+      ]
+    },
+    "slug": "41-put-bolee-prevoskhodnyy",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-42",
+    "testament": "nt",
+    "number": 42,
+    "section": "XVII. УЧЕНИЕ АПОСТОЛОВ",
+    "title": "Новое творение",
+    "reference": "2 Коринфянам 4:1 – 6:2",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "2co",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            6,
+            2
+          ]
+        }
+      ]
+    },
+    "slug": "42-novoe-tvorenie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-43",
+    "testament": "nt",
+    "number": 43,
+    "section": "XVII. УЧЕНИЕ АПОСТОЛОВ",
+    "title": "Живое упование",
+    "reference": "1 Петра 1:1 – 2:12",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1pe",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            2,
+            12
+          ]
+        }
+      ]
+    },
+    "slug": "43-zhivoe-upovanie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-44",
+    "testament": "nt",
+    "number": 44,
+    "section": "XVII. УЧЕНИЕ АПОСТОЛОВ",
+    "title": "Вера и дела",
+    "reference": "Иакова 1:1 – 2:26",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "jm",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            2,
+            26
+          ]
+        }
+      ]
+    },
+    "slug": "44-vera-i-dela",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-45",
+    "testament": "nt",
+    "number": 45,
+    "section": "XVIII. ОТКРОВЕНИЕ ИЛИ АПОКАЛИПСИС",
+    "title": "Любите друг друга",
+    "reference": "1 Иоанна 3:11 – 4:21",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "1jo",
+          "from": [
+            3,
+            11
+          ],
+          "to": [
+            4,
+            21
+          ]
+        }
+      ]
+    },
+    "slug": "45-lyubite-drug-druga",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-46",
+    "testament": "nt",
+    "number": 46,
+    "section": "XVIII. ОТКРОВЕНИЕ ИЛИ АПОКАЛИПСИС",
+    "title": "Голос и видение",
+    "reference": "Откровение 1:1-20",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "re",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            1,
+            20
+          ]
+        }
+      ]
+    },
+    "slug": "46-golos-i-videnie",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-47",
+    "testament": "nt",
+    "number": 47,
+    "section": "XVIII. ОТКРОВЕНИЕ ИЛИ АПОКАЛИПСИС",
+    "title": "Послания к церквям",
+    "reference": "Откровение 2:1 – 3:22",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "re",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            3,
+            22
+          ]
+        }
+      ]
+    },
+    "slug": "47-poslaniya-k-tserkvyam",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-48",
+    "testament": "nt",
+    "number": 48,
+    "section": "XVIII. ОТКРОВЕНИЕ ИЛИ АПОКАЛИПСИС",
+    "title": "Небесный престол",
+    "reference": "Откровение 4:1 – 7:17",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "re",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            7,
+            17
+          ]
+        }
+      ]
+    },
+    "slug": "48-nebesnyy-prestol",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-49",
+    "testament": "nt",
+    "number": 49,
+    "section": "XVIII. ОТКРОВЕНИЕ ИЛИ АПОКАЛИПСИС",
+    "title": "Аллилуйя!",
+    "reference": "Откровение 19:1 – 20:15",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "re",
+          "from": [
+            19,
+            1
+          ],
+          "to": [
+            20,
+            15
+          ]
+        }
+      ]
+    },
+    "slug": "49-alliluyya",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  },
+  {
+    "id": "nt-50",
+    "testament": "nt",
+    "number": 50,
+    "section": "XVIII. ОТКРОВЕНИЕ ИЛИ АПОКАЛИПСИС",
+    "title": "Новый Иерусалим",
+    "reference": "Откровение 21:1-21",
+    "refStructured": {
+      "passages": [
+        {
+          "book": "re",
+          "from": [
+            21,
+            1
+          ],
+          "to": [
+            21,
+            21
+          ]
+        }
+      ]
+    },
+    "slug": "50-novyy-ierusalim",
+    "media": {
+      "audio": [],
+      "image": []
+    }
+  }
+]
