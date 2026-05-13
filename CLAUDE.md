@@ -1,7 +1,7 @@
 # Ученичество – Project Conventions
 
 ## Overview
-Материалы для личного ученичества. Два курса: «Преображающее знакомство со Христом» (17 тем) и «Семь шагов христианской жизни» (7 уроков). Размещены на GitHub Pages.
+Материалы для личного ученичества. Три курса: «Преображающее знакомство со Христом» (17 тем), «Семь шагов христианской жизни» (7 уроков) и «Изучение Библии в малых группах» (102 темы: 52 ВЗ + 50 НЗ). Размещены на GitHub Pages.
 
 ## Structure
 ```
@@ -16,9 +16,20 @@ uchenichestvo/
 │   ├── index.html                     # Список 7 шагов
 │   ├── topic.html                     # Просмотр темы (marked.js)
 │   └── NN-тема.md                     # Конспекты (7 файлов)
+├── bible-groups/                      # Курс 3: Изучение Библии в малых группах
+│   ├── index.html                     # Хаб курса (ВЗ / НЗ)
+│   ├── ot.html, nt.html               # Списки тем с поиском
+│   ├── topic.html                     # Просмотр темы (3 вкладки)
+│   ├── topics.json                    # Метаданные 102 тем
+│   ├── ot/, nt/                       # NN-slug-mine.md, NN-slug-hagen.md
+│   ├── media/NN-slug/                 # Аудио и картинки для подготовки
+│   └── assets/                        # styles.css, theme-toggle.js, list.js, topic.js, synodal-render.js
 ├── data/
 │   └── synodal.json                   # Синодальный перевод (из church.kg) – 66 книг
+├── scripts/                           # bible_refs.py, extract_bible_groups.py, scan_media.py
+├── docs/superpowers/                  # specs/ и plans/ для крупных фич
 ├── CLAUDE.md
+├── BACKLOG.md
 └── README.md
 ```
 
