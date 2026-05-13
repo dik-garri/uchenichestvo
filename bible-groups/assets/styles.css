@@ -226,6 +226,64 @@ header p {
 .tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
 .tab-panel { display: none; }
 .tab-panel.active { display: block; }
+
+/* Rendered markdown inside tab panels */
+.tab-panel h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.tab-panel h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--gold);
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.tab-panel h2:first-child { margin-top: 0; }
+.tab-panel h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.tab-panel p {
+  margin-bottom: 12px;
+  color: var(--text-secondary);
+}
+.tab-panel ul, .tab-panel ol {
+  margin: 10px 0 15px 25px;
+  color: var(--text-secondary);
+}
+.tab-panel li { margin-bottom: 6px; }
+.tab-panel strong { color: var(--text); }
+.tab-panel blockquote {
+  font-family: "Lora", serif;
+  font-style: italic;
+  border-left: 3px solid var(--gold);
+  padding: 12px 20px;
+  margin: 15px 0;
+  background: rgba(212, 168, 67, 0.05);
+  color: var(--text-secondary);
+}
+:root.light .tab-panel blockquote { background: rgba(154, 123, 45, 0.06); }
+.tab-panel hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 30px 0;
+}
+.tab-panel code {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+:root.light .tab-panel code { background: rgba(0, 0, 0, 0.06); }
+
 .subtabs { display: flex; gap: 4px; margin-bottom: 16px; }
 .subtab-btn {
   background: transparent; border: 1px solid var(--border); color: var(--text-muted);
