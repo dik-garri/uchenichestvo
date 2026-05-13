@@ -71,6 +71,23 @@ uchenichestvo/
 - Верная конвертация из docx-оригинала (не переработка)
 - Структура: Цель, Введение, разделы (I, II, III...) с подразделами (A, Б, В...), Вопросы для повторения
 
+## Курс 3: Изучение Библии в малых группах (bible-groups/)
+
+102 темы для разборов в малых группах: 52 ВЗ + 50 НЗ. Источники: PDF-сборники вопросов автора + справочник Эдуарда Гагенганса «Изучение Библии в малых группах» (Bible Mission, 2024). Гагенганс покрывает только ВЗ – для НЗ вкладка Гагенганса скрывается.
+
+### Структура
+- `bible-groups/index.html` – хаб курса (ВЗ / НЗ)
+- `bible-groups/{ot,nt}.html` – списки тем с поиском по номеру/названию/ссылке
+- `bible-groups/topic.html?id={ot|nt}-NN` – вкладки: Текст / Вопросы (Мои + Гагенганс) / Подготовка
+- `bible-groups/topics.json` – метаданные всех 102 тем (id, section, title, reference, refStructured, slug, media)
+- `bible-groups/{ot,nt}/NN-slug-{mine,hagen}.md` – вопросы (Markdown)
+- `bible-groups/media/NN-slug/` – аудио и картинки подготовительных материалов
+- `bible-groups/assets/` – общие CSS/JS (styles.css, theme-toggle.js, list.js, topic.js, synodal-render.js)
+
+### Регенерация
+- `python3 scripts/extract_bible_groups.py` – пересобрать вопросы из PDF в bible-groups/{ot,nt}/*.md и topics.json
+- `python3 scripts/scan_media.py` – обновить media-блоки в topics.json по содержимому bible-groups/media/
+
 ## Bible Quotes
 - All scripture texts MUST be exact copies from the Synodal translation (Синодальный перевод)
 - **Primary source:** `data/synodal.json` – локальная копия Синодального перевода из проекта church.kg
