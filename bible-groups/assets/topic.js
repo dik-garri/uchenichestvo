@@ -58,7 +58,45 @@
     subtabs.forEach(b => b.addEventListener('click', () => activateSub(b.dataset.subtab)));
     activateSub(localStorage.getItem('bibleGroupsQuestionsTab') || 'mine');
   }
-  async function ensurePrep() { /* Task 10 */ }
+  let prepLoaded = false;
+  function ensurePrep() {
+    if (prepLoaded) return;
+    prepLoaded = true;
+    const target = document.getElementById('panel-prep');
+    const media = topic.media || {};
+    const audio = media.audio || [];
+    const image = media.image || [];
+    if (!audio.length && !image.length) {
+      target.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px 0;">Подготовительные материалы пока не добавлены.</p>';
+      return;
+    }
+    function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+    const base = `media/${encodeURIComponent(topic.slug)}/`;
+    const parts = [];
+    if (audio.length) {
+      parts.push('<div class="media-block"><h3><i class="fa-solid fa-headphones"></i> Аудио</h3>');
+      for (const name of audio) {
+        parts.push(`<div class="media-item"><div style="font-size:13px;color:var(--text-muted);margin-bottom:4px;">${esc(name)}</div>`);
+        parts.push(`<audio class="media-audio" controls preload="none" src="${base}${encodeURIComponent(name)}"></audio></div>`);
+      }
+      parts.push('</div>');
+    }
+    if (image.length) {
+      parts.push('<div class="media-block"><h3><i class="fa-solid fa-image"></i> Картинки</h3>');
+      for (const name of image) {
+        parts.push(`<img class="media-image" loading="lazy" src="${base}${encodeURIComponent(name)}" alt="${esc(name)}">`);
+      }
+      parts.push('</div>');
+    }
+    target.innerHTML = parts.join('');
+
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightboxImg');
+    target.querySelectorAll('.media-image').forEach(img => {
+      img.addEventListener('click', () => { lbImg.src = img.src; lb.classList.add('open'); });
+    });
+    lb.addEventListener('click', () => lb.classList.remove('open'));
+  }
 
   const panels = { text: 'panel-text', questions: 'panel-questions', prep: 'panel-prep' };
   const mainTabs = document.querySelectorAll('.tab-btn');
