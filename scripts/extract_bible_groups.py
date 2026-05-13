@@ -53,7 +53,7 @@ BLOCK_TITLES = {
 
 
 def _clean_line(s: str) -> str:
-    return s.replace(" -- ", " – ").replace("--", "–").strip()
+    return s.replace(" -- ", " – ").replace("--", "–").replace("—", "–").strip()
 
 
 def _extract_topic_from_text(page_text: str):
