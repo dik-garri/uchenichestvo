@@ -1199,8 +1199,15 @@
     },
     "slug": "43-prizvanie-ieremii",
     "media": {
-      "audio": [],
-      "image": []
+      "audio": [
+        "audio-1.m4a",
+        "audio-2.m4a"
+      ],
+      "image": [
+        "image-1.png",
+        "image-2.png",
+        "image-3.png"
+      ]
     }
   },
   {
