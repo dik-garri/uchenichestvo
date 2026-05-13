@@ -21,7 +21,43 @@
   }
 
   // Stubs for later tasks
-  async function ensureQuestions() { /* Task 9 */ }
+  let questionsLoaded = false;
+  async function ensureQuestions() {
+    if (questionsLoaded) return;
+    questionsLoaded = true;
+    const dir = topic.testament; // 'ot' or 'nt'
+    const mineUrl = `${dir}/${topic.slug}-mine.md`;
+    const hagenUrl = `${dir}/${topic.slug}-hagen.md`;
+
+    const [mineRes, hagenRes] = await Promise.all([
+      fetch(mineUrl),
+      fetch(hagenUrl),
+    ]);
+
+    const mineMd = mineRes.ok ? await mineRes.text() : '_Вопросы недоступны._';
+    document.getElementById('questionsMine').innerHTML = marked.parse(mineMd);
+
+    if (!hagenRes.ok) {
+      // No Hagenhans for this topic — hide sub-tabs, show mine only
+      document.getElementById('questionsSubtabs').style.display = 'none';
+      document.getElementById('questionsHagen').style.display = 'none';
+      document.getElementById('questionsMine').style.display = '';
+      return;
+    }
+
+    const hagenMd = await hagenRes.text();
+    document.getElementById('questionsHagen').innerHTML = marked.parse(hagenMd);
+
+    const subtabs = document.querySelectorAll('.subtab-btn');
+    function activateSub(name) {
+      subtabs.forEach(b => b.classList.toggle('active', b.dataset.subtab === name));
+      document.getElementById('questionsMine').style.display = name === 'mine' ? '' : 'none';
+      document.getElementById('questionsHagen').style.display = name === 'hagen' ? '' : 'none';
+      localStorage.setItem('bibleGroupsQuestionsTab', name);
+    }
+    subtabs.forEach(b => b.addEventListener('click', () => activateSub(b.dataset.subtab)));
+    activateSub(localStorage.getItem('bibleGroupsQuestionsTab') || 'mine');
+  }
   async function ensurePrep() { /* Task 10 */ }
 
   const panels = { text: 'panel-text', questions: 'panel-questions', prep: 'panel-prep' };
