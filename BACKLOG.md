@@ -10,11 +10,15 @@
 - [ ] Проверить экстракцию Гагенганса на нестандартных страницах – могут быть темы, где разделение блоков пострадало (текущая эвристика по bbox работает, но не идеально).
 
 ### Хранилище медиа
-- [ ] Решить, как хранить аудио в долгосрочной перспективе. Сейчас файлы темы 43 (~80MB) лежат в git напрямую. Варианты:
-  - Git LFS (`git lfs track "*.m4a"`)
-  - Внешний хостинг (Cloudflare R2, Backblaze B2, простой S3) с подгрузкой по URL
-  - YouTube/Telegram-вложения через ссылки
-- [ ] Если останется git/LFS – продумать совместимость с GitHub Pages (LFS-файлы по умолчанию не отдаются Pages).
+- [x] Сжатие медиа: `scripts/compress_media.py` (WebP 82q max 1600px + AAC 64k mono). Оригиналы в `bible-groups/media/_originals/` (gitignore).
+- [ ] **Миграция на GitHub Releases** – когда суммарный объём медиа в git подойдёт к ~500MB или раньше, если будет неудобно. План:
+  1. Создать релиз `media-vN` через `gh release create media-v1 -t "Media v1" --notes "..."`.
+  2. Загрузить файлы: `gh release upload media-v1 bible-groups/media/*/audio-*.m4a bible-groups/media/*/image-*.webp`.
+  3. Обновить `scripts/scan_media.py`: писать в `topics.json` полные URL вида `https://github.com/dik-garri/uchenichestvo/releases/download/media-vN/{filename}` вместо относительных путей. Чтобы не было коллизий имён между темами, переименовать файлы при загрузке: `{slug}__{filename}` (или просто хранить в одном плоском пространстве имён).
+  4. Поправить `bible-groups/assets/topic.js → ensurePrep`: если значение начинается с `http`, использовать как есть; иначе – собирать через `media/{slug}/{name}`.
+  5. Удалить медиа из `bible-groups/media/` (но оставить `_originals/`, на случай пересжатия).
+  6. Историю не чистить – минусы (раздутый `.git`) приемлемы для одного автора.
+- [ ] Возможный апгрейд: единый домен `media.uchenichestvo.com` через Cloudflare R2 + кастомный домен. Делать, если решим уйти с GitHub-инфры или захотим серьёзную аналитику/контроль доступа.
 
 ### Функциональность
 - [ ] Поддержка видео в вкладке «Подготовка». Каркас уже под это рассчитан – нужно расширить `topic.js → ensurePrep` и `scripts/scan_media.py`.
