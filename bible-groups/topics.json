@@ -1484,8 +1484,13 @@
     },
     "slug": "01-slovo-stalo-plotyu",
     "media": {
-      "audio": [],
-      "image": []
+      "audio": [
+        "анализ.m4a",
+        "дебаты.m4a"
+      ],
+      "image": [
+        "инфографика.webp"
+      ]
     }
   },
   {
