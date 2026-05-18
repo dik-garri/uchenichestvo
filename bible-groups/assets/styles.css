@@ -339,11 +339,14 @@ header p {
 .media-image-wrap .media-download {
   position: absolute; top: 8px; right: 8px;
   background: rgba(0,0,0,0.55); color: #fff;
-  opacity: 0; transition: opacity 0.2s, background 0.2s;
+  opacity: 1; transition: opacity 0.2s, background 0.2s;
 }
-.media-image-wrap:hover .media-download,
-.media-image-wrap:focus-within .media-download { opacity: 1; }
 .media-image-wrap .media-download:hover { background: rgba(0,0,0,0.75); color: var(--gold); }
+@media (hover: hover) {
+  .media-image-wrap .media-download { opacity: 0; }
+  .media-image-wrap:hover .media-download,
+  .media-image-wrap:focus-within .media-download { opacity: 1; }
+}
 
 /* Toast (share feedback) */
 .toast {
