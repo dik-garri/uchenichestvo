@@ -1517,8 +1517,13 @@
     },
     "slug": "02-blagoveschenie",
     "media": {
-      "audio": [],
-      "image": []
+      "audio": [
+        "анализ.m4a",
+        "дебаты.m4a"
+      ],
+      "image": [
+        "инфографика.webp"
+      ]
     }
   },
   {
