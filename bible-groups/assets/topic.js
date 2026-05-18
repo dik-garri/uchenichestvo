@@ -73,10 +73,11 @@
     function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
     const base = `media/${encodeURIComponent(topic.slug)}/`;
     const parts = [];
+    function stripExt(s) { return s.replace(/\.[^.]+$/, ''); }
     if (audio.length) {
       parts.push('<div class="media-block"><h3><i class="fa-solid fa-headphones"></i> Аудио</h3>');
       for (const name of audio) {
-        parts.push(`<div class="media-item"><div style="font-size:13px;color:var(--text-muted);margin-bottom:4px;">${esc(name)}</div>`);
+        parts.push(`<div class="media-item"><div style="font-size:14px;color:var(--text-secondary);margin-bottom:6px;font-weight:600;">${esc(stripExt(name))}</div>`);
         parts.push(`<audio class="media-audio" controls preload="none" src="${base}${encodeURIComponent(name)}"></audio></div>`);
       }
       parts.push('</div>');

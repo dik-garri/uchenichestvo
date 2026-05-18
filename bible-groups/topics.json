@@ -1200,13 +1200,11 @@
     "slug": "43-prizvanie-ieremii",
     "media": {
       "audio": [
-        "audio-1.m4a",
-        "audio-2.m4a"
+        "анализ.m4a",
+        "дебаты.m4a"
       ],
       "image": [
-        "image-1.webp",
-        "image-2.webp",
-        "image-3.webp"
+        "инфографика.webp"
       ]
     }
   },
