@@ -1550,8 +1550,13 @@
     },
     "slug": "03-rozhdenie-iisusa",
     "media": {
-      "audio": [],
-      "image": []
+      "audio": [
+        "анализ.m4a",
+        "дебаты.m4a"
+      ],
+      "image": [
+        "инфографика.webp"
+      ]
     }
   },
   {
