@@ -316,7 +316,46 @@ header p {
 .media-block { margin-bottom: 28px; }
 .media-block h3 { font-size: 15px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; }
 .media-audio { width: 100%; margin-bottom: 8px; }
-.media-image { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); cursor: zoom-in; margin-bottom: 12px; }
+.media-image { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); cursor: zoom-in; }
+
+.media-audio-row {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 6px;
+}
+.media-audio-title {
+  font-size: 14px; color: var(--text-secondary); font-weight: 600;
+}
+.media-download {
+  color: var(--text-muted); text-decoration: none;
+  width: 32px; height: 32px; display: inline-flex;
+  align-items: center; justify-content: center;
+  border-radius: 50%; transition: color 0.2s, background 0.2s;
+}
+.media-download:hover { color: var(--gold); background: var(--hover-bg); }
+
+.media-image-wrap {
+  position: relative; display: inline-block; margin-bottom: 12px; max-width: 100%;
+}
+.media-image-wrap .media-download {
+  position: absolute; top: 8px; right: 8px;
+  background: rgba(0,0,0,0.55); color: #fff;
+  opacity: 0; transition: opacity 0.2s, background 0.2s;
+}
+.media-image-wrap:hover .media-download,
+.media-image-wrap:focus-within .media-download { opacity: 1; }
+.media-image-wrap .media-download:hover { background: rgba(0,0,0,0.75); color: var(--gold); }
+
+/* Toast (share feedback) */
+.toast {
+  position: fixed; left: 50%; bottom: 30px; transform: translateX(-50%) translateY(20px);
+  background: var(--text); color: var(--bg);
+  padding: 10px 18px; border-radius: 999px;
+  font-size: 14px; font-weight: 600;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 1100;
+}
+.toast.visible { opacity: 1; transform: translateX(-50%) translateY(0); }
 
 /* Lightbox */
 .lightbox { position: fixed; inset: 0; background: rgba(0,0,0,0.92); display: none; align-items: center; justify-content: center; padding: 24px; z-index: 1000; cursor: zoom-out; }

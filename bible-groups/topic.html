@@ -12,8 +12,12 @@
   <div class="container">
     <div class="top-bar">
       <a class="back-link" id="backLink" href="ot.html"><i class="fas fa-arrow-left"></i> К списку</a>
-      <button class="theme-toggle" id="themeToggle" title="Сменить тему"><i class="fas fa-sun"></i></button>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="theme-toggle" id="shareBtn" title="Поделиться"><i class="fa-solid fa-share-nodes"></i></button>
+        <button class="theme-toggle" id="themeToggle" title="Сменить тему"><i class="fas fa-sun"></i></button>
+      </div>
     </div>
+    <div id="toast" class="toast" role="status"></div>
 
     <header id="topicHeader">
       <h1 id="topicTitle">Загрузка…</h1>

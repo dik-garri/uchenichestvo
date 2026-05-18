@@ -74,18 +74,24 @@
     const base = `media/${encodeURIComponent(topic.slug)}/`;
     const parts = [];
     function stripExt(s) { return s.replace(/\.[^.]+$/, ''); }
+    function dlBtn(href, filename, label) {
+      return `<a class="media-download" href="${href}" download="${esc(filename)}" title="${label}" aria-label="${label}"><i class="fa-solid fa-download"></i></a>`;
+    }
     if (audio.length) {
       parts.push('<div class="media-block"><h3><i class="fa-solid fa-headphones"></i> Аудио</h3>');
       for (const name of audio) {
-        parts.push(`<div class="media-item"><div style="font-size:14px;color:var(--text-secondary);margin-bottom:6px;font-weight:600;">${esc(stripExt(name))}</div>`);
-        parts.push(`<audio class="media-audio" controls preload="none" src="${base}${encodeURIComponent(name)}"></audio></div>`);
+        const href = `${base}${encodeURIComponent(name)}`;
+        parts.push('<div class="media-item">');
+        parts.push(`<div class="media-audio-row"><span class="media-audio-title">${esc(stripExt(name))}</span>${dlBtn(href, name, 'Скачать аудио')}</div>`);
+        parts.push(`<audio class="media-audio" controls preload="none" src="${href}"></audio></div>`);
       }
       parts.push('</div>');
     }
     if (image.length) {
       parts.push('<div class="media-block"><h3><i class="fa-solid fa-image"></i> Картинки</h3>');
       for (const name of image) {
-        parts.push(`<img class="media-image" loading="lazy" src="${base}${encodeURIComponent(name)}" alt="${esc(name)}">`);
+        const href = `${base}${encodeURIComponent(name)}`;
+        parts.push(`<div class="media-image-wrap"><img class="media-image" loading="lazy" src="${href}" alt="${esc(name)}">${dlBtn(href, name, 'Скачать картинку')}</div>`);
       }
       parts.push('</div>');
     }
@@ -95,6 +101,9 @@
     const lbImg = document.getElementById('lightboxImg');
     target.querySelectorAll('.media-image').forEach(img => {
       img.addEventListener('click', () => { lbImg.src = img.src; lb.classList.add('open'); });
+    });
+    target.querySelectorAll('.media-download').forEach(a => {
+      a.addEventListener('click', (e) => e.stopPropagation()); // don't trigger lightbox
     });
     lb.addEventListener('click', () => lb.classList.remove('open'));
   }
@@ -115,6 +124,30 @@
 
   const initial = localStorage.getItem('bibleGroupsMainTab') || 'text';
   activateTab(initial);
+
+  // Share button
+  const shareBtn = document.getElementById('shareBtn');
+  const toast = document.getElementById('toast');
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add('visible');
+    clearTimeout(showToast._t);
+    showToast._t = setTimeout(() => toast.classList.remove('visible'), 1800);
+  }
+  shareBtn.addEventListener('click', async () => {
+    const url = location.href;
+    const title = `${topic.number}. ${topic.title} – Изучение Библии`;
+    if (navigator.share) {
+      try { await navigator.share({ title, url }); return; }
+      catch (e) { if (e.name === 'AbortError') return; }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      showToast('Ссылка скопирована');
+    } catch {
+      showToast('Не удалось скопировать');
+    }
+  });
 
   // Expose for Tasks 9 and 10 to extend without re-fetching
   window._topic = topic;
