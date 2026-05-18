@@ -4,7 +4,7 @@
   const titleEl = document.getElementById('topicTitle');
   if (!id) { titleEl.textContent = 'Тема не указана'; return; }
 
-  const topics = await fetch('topics.json').then(r => r.json());
+  const topics = await fetch('topics.json', { cache: 'no-store' }).then(r => r.json());
   const topic = topics.find(t => t.id === id);
   if (!topic) { titleEl.textContent = 'Тема не найдена'; return; }
 

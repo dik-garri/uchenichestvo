@@ -1,7 +1,7 @@
 async function initList(testament) {
   const root = document.getElementById('topicList');
   const search = document.getElementById('search');
-  const res = await fetch('topics.json');
+  const res = await fetch('topics.json', { cache: 'no-store' });
   const topics = (await res.json()).filter(t => t.testament === testament);
 
   function escapeHtml(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
