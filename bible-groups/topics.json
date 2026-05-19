@@ -1583,8 +1583,13 @@
     },
     "slug": "04-ioann-krestitel",
     "media": {
-      "audio": [],
-      "image": []
+      "audio": [
+        "анализ.m4a",
+        "дебаты.m4a"
+      ],
+      "image": [
+        "инфографика.webp"
+      ]
     }
   },
   {
@@ -1611,8 +1616,13 @@
     },
     "slug": "05-kreschenie-i-iskushenie",
     "media": {
-      "audio": [],
-      "image": []
+      "audio": [
+        "анализ.m4a",
+        "дебаты.m4a"
+      ],
+      "image": [
+        "инфографика.webp"
+      ]
     }
   },
   {
@@ -1639,8 +1649,13 @@
     },
     "slug": "06-nagornaya-propoved-chast-1",
     "media": {
-      "audio": [],
-      "image": []
+      "audio": [
+        "анализ.m4a",
+        "дебаты.m4a"
+      ],
+      "image": [
+        "инфографика.webp"
+      ]
     }
   },
   {
