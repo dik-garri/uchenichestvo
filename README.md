@@ -69,3 +69,7 @@ python3 scripts/scan_media.py             # bible-groups/media/ → media-бло
 ```
 
 Зависимости: `pdfplumber` (`python3 -m pip install --user pdfplumber`).
+
+---
+
+[Все проекты →](https://dik-garri.github.io/garry/)
